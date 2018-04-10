@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="OctoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryLightColor</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+    </style>
+
+    <!-- res/values/themes.xml -->
+    <style name="OctopusLightTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/primaryDarkColor</item>
+    </style>
+
+</resources>
